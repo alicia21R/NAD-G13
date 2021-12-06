@@ -15,12 +15,21 @@
 
     </head>
     <body>
+        <style>
+            .form-group{
+                margin: 5px;
+                padding: 10px; 
+            }
+            form{
+                border: 1px solid black;
+            }
+        </style>
          <div class = "container">
         <div class="row">
             <div>
                 <form action=" Vaccinated" method="POST">
                     <div class=" form-group">
-                    <h2>Register Vaccinated Patients </h2>  
+                       <h2>Register Vaccinated Patients </h2> 
                     </div>
                     
                     <div class=" form-group">

@@ -15,6 +15,7 @@
          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
+        
        <center><h1><u>  Vaccination Certificates </u></h1></center>
          <%--<certificate:patientCertificateTag pid='1' />--%>
         <certification:certificate />

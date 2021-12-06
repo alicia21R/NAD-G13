@@ -3,7 +3,7 @@
   <tlib-version>1.0</tlib-version>
   <short-name>select</short-name>
   <uri>/WEB-INF/tlds/select</uri>
-  <tag>
+<tag>
     <name>select</name>
     <tag-class>org.health.administration.SelectfromTable</tag-class>
     <body-content>empty</body-content>
@@ -19,10 +19,5 @@
       <name>where</name>
       <required>false</required>
     </attribute>
-  </tag>
-  <tag>
-    <name>SelectfromTable</name>
-    <tag-class>org.health.administration.SelectfromTable</tag-class>
-    <body-content>scriptless</body-content>
   </tag>
 </taglib>
