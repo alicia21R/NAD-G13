@@ -5,7 +5,7 @@
   <uri>/WEB-INF/tlds/insert</uri>
   <tag>
     <name>insert</name>
-    <tag-class>org.health.administration.InsertIntoTable</tag-class>
+    <tag-class>org.health.administration.InserttoTable</tag-class>
     <body-content>empty</body-content>
     <attribute>
       <name>table</name>
@@ -15,10 +15,5 @@
       <name>values</name>
       <required>true</required>
     </attribute>
-  </tag>
-  <tag>
-    <name>InserttoTable</name>
-    <tag-class>org.health.administration.InserttoTable</tag-class>
-    <body-content>scriptless</body-content>
   </tag>
 </taglib>

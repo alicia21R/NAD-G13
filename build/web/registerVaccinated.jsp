@@ -61,11 +61,20 @@
                     <div class=" form-group">
                         <button type="submit" class="btn btn-success">Submit</button>
                     </div>
+                    
+                   
             </form>
+                
+                
             </div>
         
         </div>
     
     </div>
+        
+          <vaccination:insert
+            table="vaccinatedpatients"
+            values="'Mpigi', 'Musa', 'Kalevu', '001', 'Johnson & Johnson', ' 00123', '2021-12-05', 'ABC 12354S', '2'"
+        />
     </body>
 </html>
